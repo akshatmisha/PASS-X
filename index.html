@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Your Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>We're thrilled to have you here. Your digital life containes a myriad of password, and we know how
+            challenging it can be to manage them all. That's why we're here to make it easy for you.
+            <source>
+        </p>
+        <h2>Your Passwords</h2>
+        <h4 class="alert">Your password has been copied</h4>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            
+           
+        </table>
+        <h2>Add a Password</h2>
+        <form action="/sumbit" method="post">
+            <label for="website">Website:</label>
+            <input type="text" name="website" id="website" required>
+            <br><br>
+
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <button class="btn" type="submit">Sumbit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
